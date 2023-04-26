@@ -1,2 +1,2 @@
 # Article
-This repo contains article related to planet Earth
+This repo contains articles related to planet Earth
