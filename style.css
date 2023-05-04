@@ -6,12 +6,14 @@
   box-sizing: border-box;
 }
 
-h1,h2,h3 {
-    font-family: "Ubuntu", sans-serif;
+h1,
+h2,
+h3 {
+  font-family: "Ubuntu", sans-serif;
 }
 
 p {
-    font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 header {
@@ -38,7 +40,7 @@ article {
   align-items: center;
   width: 70%;
   margin: 3em auto;
-  padding: 3em;
+  padding: 1.2em 0.5em;
   gap: 1.2rem;
   text-align: justify;
   border: 2px solid rgba(128, 128, 128, 0.231);
@@ -56,4 +58,20 @@ article p {
 
 img {
   width: 80%;
+}
+
+figcaption {
+  width: 80%;
+  background-color: #222;
+  color: #fff;
+  padding: 0.3em;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.2rem;
+  line-height: 1.2;
+}
+
+figcaption span {
+  text-transform: none;
+  font-style: italic;
 }
