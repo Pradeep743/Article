@@ -10,10 +10,12 @@ h1,
 h2,
 h3 {
   font-family: "Ubuntu", sans-serif;
+  font-weight: 600;
 }
 
 p {
   font-family: "Poppins", sans-serif;
+  font-weight: 500;
 }
 
 header {
@@ -42,7 +44,6 @@ article {
   margin: 3em auto;
   padding: 1.2em 0.5em;
   gap: 1.2rem;
-  text-align: justify;
   border: 2px solid rgba(128, 128, 128, 0.231);
 }
 
@@ -69,7 +70,7 @@ figcaption {
   text-align: center;
   font-size: 1.2rem;
   line-height: 1.2;
-  letter-spacing: 2px;
+  letter-spacing: 1.5px;
 }
 
 figcaption span {
