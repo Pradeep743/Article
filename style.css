@@ -52,9 +52,17 @@ article h2 {
   font-size: 2rem;
 }
 
+div {
+  width: 80%;
+  margin: 0 auto;
+}
+
 article h3 {
+  text-align: left;
   font-size: 1.5rem;
   font-weight: 500;
+  text-transform: uppercase;
+  margin-top: 1.5rem;
 }
 
 article p {
