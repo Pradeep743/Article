@@ -35,7 +35,20 @@ header p {
   color: rgba(0, 0, 0, 0.5);
 }
 
-article {
+img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-rack {
+  width: 70%;
+  margin: 2rem auto;
+  display: grid;
+  gap: 3rem;
+  grid-template-columns: 1fr;
+}
+
+/* article {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -46,16 +59,13 @@ article {
   gap: 1.2rem;
   border: 2px solid rgba(128, 128, 128, 0.231);
 }
+*/
 
 article h2 {
-  text-align: center;
+  text-align: left;
   font-size: 2rem;
 }
 
-div {
-  width: 80%;
-  margin: 0 auto;
-}
 
 article h3 {
   text-align: left;
@@ -70,9 +80,6 @@ article p {
   width: 80%;
 }
 
-img {
-  width: 80%;
-}
 
 figcaption {
   width: 80%;
@@ -89,4 +96,16 @@ figcaption {
 figcaption span {
   text-transform: none;
   font-style: italic;
+}
+
+
+@media (min-width: 700px) {
+  .card-rack {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  article h2 {
+    text-align: center;
+    font-size: 2rem;
+  }
 }
