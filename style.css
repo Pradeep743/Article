@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+body {
+  color: #343a40;
+}
+
 h1,
 h2,
 h3 {
@@ -23,7 +27,7 @@ header {
   margin: 0 auto;
   margin-top: 1.8em;
   text-align: center;
-  background-color: #f7f7f7;
+  background-color: #adb5bd;
 }
 
 header h1 {
@@ -41,10 +45,10 @@ img {
 }
 
 .card-rack {
-  width: 70%;
-  margin: 2rem auto;
+  width: 85%;
+  margin: 5rem auto;
   display: grid;
-  gap: 3rem;
+  gap: 5rem;
   grid-template-columns: 1fr;
 }
 
@@ -52,10 +56,11 @@ article {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  padding-top: 2em;
+  padding: 2em 0.8em;
   align-items: center;
   gap: 1.2rem;
   border: 2px solid rgba(128, 128, 128, 0.231);
+  box-shadow: 0 10px 8px rgba(0, 0, 0, 0.25);
 }
 
 
