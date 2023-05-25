@@ -48,18 +48,16 @@ img {
   grid-template-columns: 1fr;
 }
 
-/* article {
+article {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
+  padding-top: 2em;
   align-items: center;
-  width: 70%;
-  margin: 3em auto;
-  padding: 1.2em 0.5em;
   gap: 1.2rem;
   border: 2px solid rgba(128, 128, 128, 0.231);
 }
-*/
+
 
 article h2 {
   text-align: left;
@@ -80,9 +78,12 @@ article p {
   width: 80%;
 }
 
+div {
+  width: 80%;
+}
 
 figcaption {
-  width: 80%;
+  width: 100%;
   background-color: #222;
   color: #fff;
   padding: 0.3em;
@@ -101,7 +102,7 @@ figcaption span {
 
 @media (min-width: 700px) {
   .card-rack {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 
   article h2 {
